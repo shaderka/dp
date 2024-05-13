@@ -10,7 +10,7 @@ import { Toaster, toast } from 'sonner'
 import { useEffect, useState } from 'react'
 
 export default function Reciept(order) {
-	const path = window.location.origin + '/reciept-template.docx'
+	const path = document.referrer + '/reciept-template.docx'
 
 	const [items, setItems] = useState([])
 	const [extras, setExtras] = useState([])
