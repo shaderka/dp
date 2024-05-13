@@ -58,7 +58,10 @@ export default function TicketsPage() {
 				<div className='gap-1 p-2 mt-6 max-w-xl mx-auto relative flex flex-col bg-white shadow-md rounded-xl bg-clip-border'>
 					{tickets?.length > 0 ? (
 						tickets.map(ticket => (
-							<div className='cat my-1.5 flex items-center justify-between gap-7 w-full  pr-1 leading-tight transition-all rounded-lg outline-none text-start hover:bg-gray-200 hover:bg-opacity-80 hover:text-gray-900 focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900'>
+							<div
+								key={ticket._id}
+								className='cat my-1.5 flex items-center justify-between gap-7 w-full  pr-1 leading-tight transition-all rounded-lg outline-none text-start hover:bg-gray-200 hover:bg-opacity-80 hover:text-gray-900 focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900'
+							>
 								{ticket.closedAt ? (
 									<span className='ml-4 h-full leading-[35px] rounded-md px-2 bg-green-600/60'>
 										Закрыт{' '}

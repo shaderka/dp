@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { useState } from 'react'
 
-export default function userNav() {
+export default function UserNav() {
 	const [isAdm, setIsAdm] = useState(false)
 	const path = usePathname()
 

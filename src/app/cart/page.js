@@ -76,7 +76,10 @@ export default function CartPage() {
 					<div className='flex w-hull max-[700px]:flex-col'>
 						<div className='grow pr-10'>
 							{cartProducts.map((product, index) => (
-								<div className='cat my-1.5 flex items-center w-full  pr-1 leading-tight transition-all rounded-lg outline-none text-start hover:bg-gray-200 hover:bg-opacity-80 hover:text-gray-900 focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900'>
+								<div
+									key={index}
+									className='cat my-1.5 flex items-center w-full  pr-1 leading-tight transition-all rounded-lg outline-none text-start hover:bg-gray-200 hover:bg-opacity-80 hover:text-gray-900 focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900'
+								>
 									<img
 										src={product.image}
 										className='rounded-md ml-1 w-[50px]'

@@ -5,8 +5,9 @@ import Link from 'next/link'
 import Acc from '../account'
 import { useSession } from 'next-auth/react'
 
-export default function header() {
-	const { status } = useSession()
+export default function Header() {
+	const session = useSession()
+	const { status } = session
 
 	return (
 		<>

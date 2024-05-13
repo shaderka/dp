@@ -5,7 +5,7 @@ import { useState } from 'react'
 import { signIn, useSession } from 'next-auth/react'
 import { useRouter } from 'next/navigation'
 
-export default function loginPage() {
+export default function LoginPage() {
 	const [tel, setTel] = useState('')
 	const [pass, setPass] = useState('')
 	const [error, setError] = useState('')
