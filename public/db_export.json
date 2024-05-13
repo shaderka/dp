@@ -589,7 +589,7 @@
     },
     {
       "_id": "6628f51f3b6a40703ed1fecd",
-      "image": "https://dodo_bucket.hb.ru-msk.vkcs.cloud/9lklvdrnhs5.png",
+      "image": "https://dodo_bucket.hb.ru-msk.vkcs.cloud/aawlw55x2i8.png",
       "name": "Маффин Три шоколада",
       "description": "Ну и кекс этот маффин! Он из натурального какао, а внутри — нежная начинка из кубиков белого и молочного шоколада",
       "category": "6627a26a760af8ded35cbf55",
@@ -597,7 +597,7 @@
       "sizes": [],
       "extrasPrices": [],
       "createdAt": "2024-04-24T12:03:43.353Z",
-      "updatedAt": "2024-04-24T12:03:43.353Z",
+      "updatedAt": "2024-05-13T16:12:39.362Z",
       "__v": 0
     },
     {
@@ -867,6 +867,22 @@
       "status": "66223601a67aa71b8d711049",
       "createdAt": "2024-05-06T08:11:01.264Z",
       "updatedAt": "2024-05-06T08:11:01.264Z",
+      "__v": 0
+    },
+    {
+      "_id": "66423b235e9154c0b02b4fbd",
+      "user": "66109b0137592bcc3bd9ba44",
+      "streetAddress": " 123123123",
+      "items": [
+        {
+          "_id": "6628f59e3b6a40703ed1ffa7",
+          "size": null,
+          "extras": []
+        }
+      ],
+      "status": "66223601a67aa71b8d711049",
+      "createdAt": "2024-05-13T16:09:07.036Z",
+      "updatedAt": "2024-05-13T16:09:07.036Z",
       "__v": 0
     }
   ],
