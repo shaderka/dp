@@ -72,7 +72,7 @@ export default function Profile() {
 		const res = await fetch('/api/exportDb')
 		if (res.ok) {
 			const a = document.createElement('a')
-			a.href = 'http://localhost:3000/db_export.json'
+			a.href = window.location.origin + '/db_export.json'
 			a.download = 'db_export.json'
 			document.body.appendChild(a)
 			a.click()

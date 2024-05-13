@@ -24,7 +24,7 @@ i18n.monthNames = [
 ]
 
 export default function TicketsClosedDocument(user) {
-	const path = 'http://localhost:3000/ticket-template.docx'
+	const path = window.location.origin + '/ticket-template.docx'
 	const session = useSession()
 
 	const [tickets, setTickets] = useState([])

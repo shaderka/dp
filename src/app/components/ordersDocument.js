@@ -24,7 +24,7 @@ i18n.monthNames = [
 ]
 
 export default function OrdersDocument(user) {
-	const path = 'http://localhost:3000/orders-template.docx'
+	const path = window.location.origin + '/orders-template.docx'
 	const session = useSession()
 
 	const [orders, setOrders] = useState([])
