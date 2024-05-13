@@ -37,7 +37,7 @@ export default function UsersPage() {
 				<Nav></Nav>
 				<div className='max-w-[600px] mx-auto'>
 					<a
-						href={document.referrer + '/logs.txt'}
+						href={'https://dodo-shaderka.vercel.app/logs.txt'}
 						download='логи'
 						className=' inline-flex gap-2 items-center text-white bg-primary hover:bg-orange-600 focus:ring-4 focus:outline-none focus:ring-orange-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center'
 					>

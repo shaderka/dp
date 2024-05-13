@@ -24,7 +24,7 @@ i18n.monthNames = [
 ]
 
 export default function TicketsClosedDocument(user) {
-	const path = document.referrer + '/ticket-template.docx'
+	const path = 'https://dodo-shaderka.vercel.app/ticket-template.docx'
 	const session = useSession()
 
 	const [tickets, setTickets] = useState([])
