@@ -35,7 +35,7 @@ export const AuthProvider = ({ children }) => {
 			if (event.key === 'F1') {
 				event.preventDefault()
 				if (!path.includes('guide')) {
-					window.open(window.location.origin + '/guide')
+					window.open('https://dodo-shaderka.vercel.app/guide')
 				}
 			}
 		}
