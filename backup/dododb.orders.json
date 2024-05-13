@@ -1,0 +1,301 @@
+[{
+  "_id": {
+    "$oid": "6634e29723d07f6b7c0c0836"
+  },
+  "user": {
+    "$oid": "66109b0137592bcc3bd9ba44"
+  },
+  "streetAddress": " address, 228",
+  "items": [
+    {
+      "_id": "6628f3423b6a40703ed1fd28",
+      "size": {
+        "name": "30",
+        "price": 829,
+        "_id": "6628f3423b6a40703ed1fd2a"
+      },
+      "extras": [
+        {
+          "extra": "66213dd6ff171fe34237189e",
+          "price": 119,
+          "_id": "6628f3423b6a40703ed1fd2c"
+        },
+        {
+          "extra": "6621507aff171fe342371925",
+          "price": 119,
+          "_id": "6628f3423b6a40703ed1fd2d"
+        }
+      ]
+    },
+    {
+      "_id": "6628f51f3b6a40703ed1fecd",
+      "size": null,
+      "extras": []
+    },
+    {
+      "_id": "6628f5b03b6a40703ed1fff1",
+      "size": null,
+      "extras": []
+    }
+  ],
+  "status": {
+    "$oid": "66223601a67aa71b8d711049"
+  },
+  "createdAt": {
+    "$date": "2024-05-03T13:11:51.344Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-03T13:11:51.344Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6634f8d30c5bda39381ec356"
+  },
+  "user": {
+    "$oid": "66109b0137592bcc3bd9ba44"
+  },
+  "streetAddress": " адресадрес",
+  "items": [
+    {
+      "_id": "6628f4023b6a40703ed1fd75",
+      "size": {
+        "name": "35",
+        "price": 1099,
+        "_id": "6628f4023b6a40703ed1fd78"
+      },
+      "extras": [
+        {
+          "extra": "66215092ff171fe34237192d",
+          "price": 99,
+          "_id": "6628f4023b6a40703ed1fd7a"
+        },
+        {
+          "extra": "66213de2ff171fe3423718a2",
+          "price": 119,
+          "_id": "6628f4023b6a40703ed1fd7b"
+        }
+      ]
+    },
+    {
+      "_id": "6628f51f3b6a40703ed1fecd",
+      "size": null,
+      "extras": []
+    },
+    {
+      "_id": "6628f5b03b6a40703ed1fff1",
+      "size": null,
+      "extras": []
+    }
+  ],
+  "status": {
+    "$oid": "66223601a67aa71b8d711049"
+  },
+  "createdAt": {
+    "$date": "2024-05-03T14:46:43.050Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-03T14:46:43.050Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "663546f80c5bda39381eeb15"
+  },
+  "user": {
+    "$oid": "660c01c881f8f4ebf942c363"
+  },
+  "streetAddress": " address, 2",
+  "items": [
+    {
+      "_id": "6628f51f3b6a40703ed1fecd",
+      "size": null,
+      "extras": []
+    },
+    {
+      "_id": "6628f3a83b6a40703ed1fd49",
+      "size": {
+        "name": "30",
+        "price": 829,
+        "_id": "6628f3a83b6a40703ed1fd4b"
+      },
+      "extras": [
+        {
+          "extra": "66213e1dff171fe3423718c4",
+          "price": 99,
+          "_id": "6628f3a83b6a40703ed1fd4e"
+        },
+        {
+          "extra": "66213dd6ff171fe34237189e",
+          "price": 119,
+          "_id": "6628f3a83b6a40703ed1fd4d"
+        }
+      ]
+    }
+  ],
+  "status": {
+    "$oid": "66223601a67aa71b8d711049"
+  },
+  "createdAt": {
+    "$date": "2024-05-03T20:20:08.106Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-03T20:20:08.106Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "663572d30c5bda39381efcc3"
+  },
+  "user": {
+    "$oid": "660c01c881f8f4ebf942c363"
+  },
+  "streetAddress": " address, 5, 10",
+  "items": [
+    {
+      "_id": "6628f4813b6a40703ed1fdf1",
+      "size": {
+        "name": "35",
+        "price": 699,
+        "_id": "6628f4813b6a40703ed1fdf4"
+      },
+      "extras": [
+        {
+          "extra": "66215092ff171fe34237192d",
+          "price": 99,
+          "_id": "6628f4813b6a40703ed1fdf7"
+        },
+        {
+          "extra": "66215098ff171fe342371931",
+          "price": 99,
+          "_id": "6628f4813b6a40703ed1fdf6"
+        },
+        {
+          "extra": "66213de2ff171fe3423718a2",
+          "price": 119,
+          "_id": "6628f4813b6a40703ed1fdf5"
+        }
+      ]
+    },
+    {
+      "_id": "6628f51f3b6a40703ed1fecd",
+      "size": null,
+      "extras": []
+    },
+    {
+      "_id": "6628f51f3b6a40703ed1fecd",
+      "size": null,
+      "extras": []
+    },
+    {
+      "_id": "6628f51f3b6a40703ed1fecd",
+      "size": null,
+      "extras": []
+    }
+  ],
+  "status": {
+    "$oid": "66223601a67aa71b8d711049"
+  },
+  "createdAt": {
+    "$date": "2024-05-03T23:27:15.078Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-03T23:27:15.078Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6637715d4865f9e4e3dc264f"
+  },
+  "user": {
+    "$oid": "660c01c881f8f4ebf942c363"
+  },
+  "streetAddress": " 123",
+  "items": [
+    {
+      "_id": "6628f51f3b6a40703ed1fecd",
+      "size": null,
+      "extras": []
+    }
+  ],
+  "status": {
+    "$oid": "66223601a67aa71b8d711049"
+  },
+  "createdAt": {
+    "$date": "2024-05-05T11:45:33.365Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-05T11:45:33.365Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66389095f91c55d0a498c8d3"
+  },
+  "user": {
+    "$oid": "660c01c881f8f4ebf942c363"
+  },
+  "streetAddress": "adress, 228",
+  "items": [
+    {
+      "_id": "6628f3a83b6a40703ed1fd49",
+      "size": {
+        "name": "30",
+        "price": 829,
+        "_id": "6628f3a83b6a40703ed1fd4b"
+      },
+      "extras": [
+        {
+          "extra": "66213e1dff171fe3423718c4",
+          "price": 99,
+          "_id": "6628f3a83b6a40703ed1fd4e"
+        },
+        {
+          "extra": "66215098ff171fe342371931",
+          "price": 99,
+          "_id": "6628f3a83b6a40703ed1fd4f"
+        }
+      ]
+    },
+    {
+      "_id": "6628f3423b6a40703ed1fd28",
+      "size": {
+        "name": "30",
+        "price": 829,
+        "_id": "6628f3423b6a40703ed1fd2a"
+      },
+      "extras": [
+        {
+          "extra": "6621507aff171fe342371925",
+          "price": 119,
+          "_id": "6628f3423b6a40703ed1fd2d"
+        },
+        {
+          "extra": "66213e19ff171fe3423718c0",
+          "price": 99,
+          "_id": "6628f3423b6a40703ed1fd2e"
+        }
+      ]
+    },
+    {
+      "_id": "6628f51f3b6a40703ed1fecd",
+      "size": null,
+      "extras": []
+    }
+  ],
+  "status": {
+    "$oid": "66223601a67aa71b8d711049"
+  },
+  "createdAt": {
+    "$date": "2024-05-06T08:11:01.264Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-06T08:11:01.264Z"
+  },
+  "__v": 0
+}]

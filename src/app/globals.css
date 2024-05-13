@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	.extra-box:has(input:checked) {
+		@apply border-primary text-gray-600 relative before:absolute before:top-0 before:right-0 before:content-[url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAABiElEQVR4nN2UvUvDUBTFTx2KujkIfqDODuKmoG6dHTu7xXdTRATBRbGzH1Tp5B+h4iAOLtbNP0ItZnJw9WOQI+/lNY0hTZM2Ux9cSF5459z7u/cFGOhFoEDBIwWvVDhgBVP5GrhYpoCh+KHgglsYz8dA4dgKX1Hhkgq/9v2dgvX+8Sg0reCK2atggQoPoYpqPMRQbwabWAoJ1elgNjAWbFPh23zTlW1guB88tEKfFFRZRtEmsErBR2CSpZIIHkbiiYKZAFnb5Cw7HgWPLiZMCG5C1XgUzAeVtHClbXwITy3YczAZQeYFfdE9aU/XWHo8LkqhqqZjcZVRtGcadu8oHR4/yzu6mDOhn+N7UrXnFu09+dLVpsETF7f6d/GvJ3q6WqgUru3efnc8ceH4QjE9qevLaG68b/DSHU82A0YGoJEGzx53MELBbqQnJfOL8Ec1LNo053WSQCENHjNudDCakGmyaCIehdOeMu1oIDhJyPSNgnO6WMskGjF4ziXTTouCez1euYpiENYffSwAIN5mTU4AAAAASUVORK5CYII=')];
+	}
+
+	.guide h2 {
+		@apply font-semibold mb-4 ml-4;
+	}
+	.guide p {
+		@apply mb-4;
+	}
+}
+
+.logo {
+	font-size: 50px;
+}
+
+nav a,
+nav button {
+	font-weight: bold;
+	transition: all 0.3s ease-in-out;
+}
+
+form.login {
+	margin-top: 30vh;
+	max-width: 500px;
+}
+
+form.login.reg {
+	margin-top: 20vh;
+}
+
+.err {
+	width: 100%;
+}
+
+.profile {
+	display: flex;
+}
+
+.active {
+	background-color: rgb(255 105 0);
+	color: rgb(255 255 255);
+	border-color: rgb(255 105 0);
+}
+
+.new-cat {
+	display: flex;
+	align-items: center;
+}
+
+input:checked + label {
+	background-color: rgb(255, 144, 65);
+}
+
+input:checked + label.admin {
+	background-color: white;
+}
+
+.cats-list::-webkit-scrollbar {
+	width: 0px;
+	height: 0px;
+}

@@ -1,0 +1,427 @@
+[{
+  "_id": {
+    "$oid": "6628f3423b6a40703ed1fd28"
+  },
+  "image": "https://dodo_bucket.hb.ru-msk.vkcs.cloud/9lklvdr7lb9.png",
+  "name": "Двойная пепперони",
+  "description": "Двойная порция пикантной пепперони, увеличенная порция моцареллы, фирменный томатный соус",
+  "category": {
+    "$oid": "661fb2d5f22baee8656bb3ae"
+  },
+  "basePrice": null,
+  "sizes": [
+    {
+      "name": "25",
+      "price": 579,
+      "_id": {
+        "$oid": "6628f3423b6a40703ed1fd29"
+      }
+    },
+    {
+      "name": "30",
+      "price": 829,
+      "_id": {
+        "$oid": "6628f3423b6a40703ed1fd2a"
+      }
+    },
+    {
+      "name": "35",
+      "price": 999,
+      "_id": {
+        "$oid": "6628f3423b6a40703ed1fd2b"
+      }
+    }
+  ],
+  "extrasPrices": [
+    {
+      "extra": {
+        "$oid": "66213dd6ff171fe34237189e"
+      },
+      "price": 119,
+      "_id": {
+        "$oid": "6628f3423b6a40703ed1fd2c"
+      }
+    },
+    {
+      "extra": {
+        "$oid": "6621507aff171fe342371925"
+      },
+      "price": 119,
+      "_id": {
+        "$oid": "6628f3423b6a40703ed1fd2d"
+      }
+    },
+    {
+      "extra": {
+        "$oid": "66213e19ff171fe3423718c0"
+      },
+      "price": 99,
+      "_id": {
+        "$oid": "6628f3423b6a40703ed1fd2e"
+      }
+    },
+    {
+      "extra": {
+        "$oid": "66215098ff171fe342371931"
+      },
+      "price": 99,
+      "_id": {
+        "$oid": "6628f3423b6a40703ed1fd2f"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-04-24T11:55:46.417Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-24T11:55:46.417Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6628f3a83b6a40703ed1fd49"
+  },
+  "image": "https://dodo_bucket.hb.ru-msk.vkcs.cloud/9lklvdrdtfy.png",
+  "name": "Сырный цыпленок",
+  "description": "Цыпленок, моцарелла, сыры чеддер и пармезан, сырный соус, томаты, фирменный соус альфредо, чеснок ",
+  "category": {
+    "$oid": "661fb2d5f22baee8656bb3ae"
+  },
+  "basePrice": null,
+  "sizes": [
+    {
+      "name": "25",
+      "price": 579,
+      "_id": {
+        "$oid": "6628f3a83b6a40703ed1fd4a"
+      }
+    },
+    {
+      "name": "30",
+      "price": 829,
+      "_id": {
+        "$oid": "6628f3a83b6a40703ed1fd4b"
+      }
+    },
+    {
+      "name": "35",
+      "price": 999,
+      "_id": {
+        "$oid": "6628f3a83b6a40703ed1fd4c"
+      }
+    }
+  ],
+  "extrasPrices": [
+    {
+      "extra": {
+        "$oid": "66213dd6ff171fe34237189e"
+      },
+      "price": 119,
+      "_id": {
+        "$oid": "6628f3a83b6a40703ed1fd4d"
+      }
+    },
+    {
+      "extra": {
+        "$oid": "66213e1dff171fe3423718c4"
+      },
+      "price": 99,
+      "_id": {
+        "$oid": "6628f3a83b6a40703ed1fd4e"
+      }
+    },
+    {
+      "extra": {
+        "$oid": "66215098ff171fe342371931"
+      },
+      "price": 99,
+      "_id": {
+        "$oid": "6628f3a83b6a40703ed1fd4f"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-04-24T11:57:28.845Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-24T11:57:28.845Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6628f4023b6a40703ed1fd75"
+  },
+  "image": "https://dodo_bucket.hb.ru-msk.vkcs.cloud/9lklvdrg150.png",
+  "name": "Карбонара",
+  "description": "Бекон, сыры чеддер и пармезан, моцарелла, томаты, красный лук, чеснок, фирменный соус альфредо, итальянские травы",
+  "category": {
+    "$oid": "661fb2d5f22baee8656bb3ae"
+  },
+  "basePrice": null,
+  "sizes": [
+    {
+      "name": "25",
+      "price": 629,
+      "_id": {
+        "$oid": "6628f4023b6a40703ed1fd76"
+      }
+    },
+    {
+      "name": "30",
+      "price": 939,
+      "_id": {
+        "$oid": "6628f4023b6a40703ed1fd77"
+      }
+    },
+    {
+      "name": "35",
+      "price": 1099,
+      "_id": {
+        "$oid": "6628f4023b6a40703ed1fd78"
+      }
+    }
+  ],
+  "extrasPrices": [
+    {
+      "extra": {
+        "$oid": "66213dd6ff171fe34237189e"
+      },
+      "price": 119,
+      "_id": {
+        "$oid": "6628f4023b6a40703ed1fd79"
+      }
+    },
+    {
+      "extra": {
+        "$oid": "66215092ff171fe34237192d"
+      },
+      "price": 99,
+      "_id": {
+        "$oid": "6628f4023b6a40703ed1fd7a"
+      }
+    },
+    {
+      "extra": {
+        "$oid": "66213de2ff171fe3423718a2"
+      },
+      "price": 119,
+      "_id": {
+        "$oid": "6628f4023b6a40703ed1fd7b"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-04-24T11:58:58.460Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-24T11:58:58.460Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6628f4493b6a40703ed1fdad"
+  },
+  "image": "https://dodo_bucket.hb.ru-msk.vkcs.cloud/9lklvdrhwzh.png",
+  "name": "Пепперони фреш",
+  "description": "Пикантная пепперони, увеличенная порция моцареллы, томаты, фирменный томатный соус",
+  "category": {
+    "$oid": "661fb2d5f22baee8656bb3ae"
+  },
+  "basePrice": null,
+  "sizes": [
+    {
+      "name": "25",
+      "price": 339,
+      "_id": {
+        "$oid": "6628f4493b6a40703ed1fdae"
+      }
+    },
+    {
+      "name": "30",
+      "price": 559,
+      "_id": {
+        "$oid": "6628f4493b6a40703ed1fdaf"
+      }
+    },
+    {
+      "name": "35",
+      "price": 699,
+      "_id": {
+        "$oid": "6628f4493b6a40703ed1fdb0"
+      }
+    }
+  ],
+  "extrasPrices": [
+    {
+      "extra": {
+        "$oid": "66213de2ff171fe3423718a2"
+      },
+      "price": 119,
+      "_id": {
+        "$oid": "6628f4493b6a40703ed1fdb1"
+      }
+    },
+    {
+      "extra": {
+        "$oid": "66213e19ff171fe3423718c0"
+      },
+      "price": 99,
+      "_id": {
+        "$oid": "6628f4493b6a40703ed1fdb2"
+      }
+    },
+    {
+      "extra": {
+        "$oid": "66213dd6ff171fe34237189e"
+      },
+      "price": 119,
+      "_id": {
+        "$oid": "6628f4493b6a40703ed1fdb3"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-04-24T12:00:09.030Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-24T12:00:09.030Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6628f4813b6a40703ed1fdf1"
+  },
+  "image": "https://dodo_bucket.hb.ru-msk.vkcs.cloud/9lklvdrjfjb.png",
+  "name": "Сырная",
+  "description": "Моцарелла, сыры чеддер и пармезан, фирменный соус альфредо",
+  "category": {
+    "$oid": "661fb2d5f22baee8656bb3ae"
+  },
+  "basePrice": null,
+  "sizes": [
+    {
+      "name": "25",
+      "price": 339,
+      "_id": {
+        "$oid": "6628f4813b6a40703ed1fdf2"
+      }
+    },
+    {
+      "name": "30",
+      "price": 559,
+      "_id": {
+        "$oid": "6628f4813b6a40703ed1fdf3"
+      }
+    },
+    {
+      "name": "35",
+      "price": 699,
+      "_id": {
+        "$oid": "6628f4813b6a40703ed1fdf4"
+      }
+    }
+  ],
+  "extrasPrices": [
+    {
+      "extra": {
+        "$oid": "66213de2ff171fe3423718a2"
+      },
+      "price": 119,
+      "_id": {
+        "$oid": "6628f4813b6a40703ed1fdf5"
+      }
+    },
+    {
+      "extra": {
+        "$oid": "66215098ff171fe342371931"
+      },
+      "price": 99,
+      "_id": {
+        "$oid": "6628f4813b6a40703ed1fdf6"
+      }
+    },
+    {
+      "extra": {
+        "$oid": "66215092ff171fe34237192d"
+      },
+      "price": 99,
+      "_id": {
+        "$oid": "6628f4813b6a40703ed1fdf7"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-04-24T12:01:05.379Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-24T12:01:05.379Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6628f51f3b6a40703ed1fecd"
+  },
+  "image": "https://dodo_bucket.hb.ru-msk.vkcs.cloud/9lklvdrnhs5.png",
+  "name": "Маффин Три шоколада",
+  "description": "Ну и кекс этот маффин! Он из натурального какао, а внутри — нежная начинка из кубиков белого и молочного шоколада",
+  "category": {
+    "$oid": "6627a26a760af8ded35cbf55"
+  },
+  "basePrice": 119,
+  "sizes": [],
+  "extrasPrices": [],
+  "createdAt": {
+    "$date": "2024-04-24T12:03:43.353Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-24T12:03:43.353Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6628f59e3b6a40703ed1ffa7"
+  },
+  "image": "https://dodo_bucket.hb.ru-msk.vkcs.cloud/9lklvdrqc48.png",
+  "name": "Добрый Кола",
+  "description": "",
+  "category": {
+    "$oid": "661fb2d8f22baee8656bb3b2"
+  },
+  "basePrice": 129,
+  "sizes": [],
+  "extrasPrices": [],
+  "createdAt": {
+    "$date": "2024-04-24T12:05:50.749Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-24T12:05:50.749Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6628f5b03b6a40703ed1fff1"
+  },
+  "image": "https://dodo_bucket.hb.ru-msk.vkcs.cloud/9lklvdrqqvd.png",
+  "name": "Морс Клюква",
+  "description": "Эта ягода хитра! Наш фирменный морс для любителей сладкой кислинки. Дизайн товара может отличаться",
+  "category": {
+    "$oid": "661fb2d8f22baee8656bb3b2"
+  },
+  "basePrice": 145,
+  "sizes": [],
+  "extrasPrices": [],
+  "createdAt": {
+    "$date": "2024-04-24T12:06:08.828Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-24T12:06:08.828Z"
+  },
+  "__v": 0
+}]

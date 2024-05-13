@@ -1,0 +1,117 @@
+[{
+  "_id": {
+    "$oid": "660c01c881f8f4ebf942c363"
+  },
+  "fio": "Иван",
+  "email": "test@ru",
+  "tel": "+711111111",
+  "pass": "$2a$10$RdZoq.8HkcelnK1A2hdMhuMP8/6QxfZ8rj9rUBGOGGL5Dl1RI.4cq",
+  "createdAt": {
+    "$date": "2024-04-02T13:02:00.610Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-23T09:34:52.635Z"
+  },
+  "__v": 0,
+  "admin": false
+},
+{
+  "_id": {
+    "$oid": "660c26f581f8f4ebf942c38c"
+  },
+  "fio": "Дорош",
+  "email": "dorow@ru",
+  "tel": "+72222222",
+  "pass": "$2a$10$o7fCEH6iicbJDM8tf7drtOGfAuoj2oXUmCdXFE7cNVrqM.OM4Ar8a",
+  "createdAt": {
+    "$date": "2024-04-02T15:40:37.280Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-02T15:40:37.280Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66109b0137592bcc3bd9ba44"
+  },
+  "fio": "test",
+  "email": "test@com",
+  "tel": "1",
+  "pass": "$2a$10$RfEFGnuI4aH8oQQ9qflkv.A5iL05PxiC8VPfMZ64tatZ67cSvw0A6",
+  "createdAt": {
+    "$date": "2024-04-06T00:44:49.235Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-03T13:37:19.286Z"
+  },
+  "__v": 0,
+  "admin": true
+},
+{
+  "_id": {
+    "$oid": "6611215459128c09df02df4e"
+  },
+  "fio": "miwa666",
+  "email": "22@ru",
+  "tel": "22",
+  "pass": "$2a$10$M19Py3YMihs9N8GSIxAIdOapsuDWtvgdswaBOpqmO2fXktairtdOK",
+  "createdAt": {
+    "$date": "2024-04-06T10:17:56.053Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-07T19:37:17.047Z"
+  },
+  "__v": 0,
+  "admin": true
+},
+{
+  "_id": {
+    "$oid": "661136581f63f5da2899c3e2"
+  },
+  "fio": "test2",
+  "email": "asd@ru",
+  "tel": "+71",
+  "pass": "$2a$10$kggi3S55rw.2EFXXKPCHGuh/AXxFlX6ND24UDdP7GLfhtvu9FjCDi",
+  "createdAt": {
+    "$date": "2024-04-06T11:47:36.726Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-06T11:47:36.726Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6638924df91c55d0a498cb07"
+  },
+  "fio": "123",
+  "email": "123@ru",
+  "tel": "123",
+  "pass": "$2a$10$bg9uuZZe2VatmWLEx7aUROeHb3N.Cr8cZM.5q7AujfH4ZkIO4960W",
+  "admin": true,
+  "createdAt": {
+    "$date": "2024-05-06T08:18:21.190Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-06T08:18:34.356Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6638928df91c55d0a498cc24"
+  },
+  "fio": "1234",
+  "email": "1@ru",
+  "tel": "1234",
+  "pass": "$2a$10$7KEjqD6CqU8xbnhVSLAU0uPogRkwldDXhgrwdWcySX/9tkSv2qbii",
+  "admin": false,
+  "createdAt": {
+    "$date": "2024-05-06T08:19:25.962Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-06T08:19:25.962Z"
+  },
+  "__v": 0
+}]
