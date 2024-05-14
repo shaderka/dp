@@ -271,9 +271,9 @@
     },
     {
       "_id": "66290771b2451101b07f5fe5",
-      "name": "СОУУУУУУУУУУУУУСЫЫЫЫЫЫЫЫ",
+      "name": "Соусы",
       "createdAt": "2024-04-24T13:21:53.950Z",
-      "updatedAt": "2024-05-13T20:14:16.948Z",
+      "updatedAt": "2024-05-13T21:29:18.103Z",
       "__v": 0
     }
   ],
@@ -282,7 +282,7 @@
       "_id": "66213dd6ff171fe34237189e",
       "name": "Сыр",
       "createdAt": "2024-04-18T15:35:50.410Z",
-      "updatedAt": "2024-04-18T15:35:50.410Z",
+      "updatedAt": "2024-05-13T21:29:25.509Z",
       "__v": 0
     },
     {
@@ -905,6 +905,77 @@
       "createdAt": "2024-05-13T19:53:41.485Z",
       "updatedAt": "2024-05-13T19:53:41.485Z",
       "__v": 0
+    },
+    {
+      "_id": "6642867237ee60e34c596ffe",
+      "user": "6642864a37ee60e34c596fda",
+      "streetAddress": " gjgjgjgjgj",
+      "items": [
+        {
+          "_id": "6628f4023b6a40703ed1fd75",
+          "size": {
+            "name": "35",
+            "price": 1099,
+            "_id": "6628f4023b6a40703ed1fd78"
+          },
+          "extras": []
+        }
+      ],
+      "status": "66223601a67aa71b8d711049",
+      "createdAt": "2024-05-13T21:30:26.822Z",
+      "updatedAt": "2024-05-13T21:30:26.822Z",
+      "__v": 0
+    },
+    {
+      "_id": "6642989bbeb424b680d5b681",
+      "user": "664297c6851bf6c4debb215c",
+      "streetAddress": " г.Санкт-Петербург, Дунайский проспект, д. 24, парадная 5, кв. 391",
+      "items": [
+        {
+          "_id": "6628f3423b6a40703ed1fd28",
+          "size": {
+            "name": "35",
+            "price": 999,
+            "_id": "6628f3423b6a40703ed1fd2b"
+          },
+          "extras": [
+            {
+              "extra": "66215098ff171fe342371931",
+              "price": 99,
+              "_id": "6628f3423b6a40703ed1fd2f"
+            }
+          ]
+        },
+        {
+          "_id": "6628f4023b6a40703ed1fd75",
+          "size": {
+            "name": "35",
+            "price": 1099,
+            "_id": "6628f4023b6a40703ed1fd78"
+          },
+          "extras": [
+            {
+              "extra": "66215092ff171fe34237192d",
+              "price": 99,
+              "_id": "6628f4023b6a40703ed1fd7a"
+            }
+          ]
+        },
+        {
+          "_id": "6628f59e3b6a40703ed1ffa7",
+          "size": null,
+          "extras": []
+        },
+        {
+          "_id": "6628f5b03b6a40703ed1fff1",
+          "size": null,
+          "extras": []
+        }
+      ],
+      "status": "66223601a67aa71b8d711049",
+      "createdAt": "2024-05-13T22:47:55.231Z",
+      "updatedAt": "2024-05-13T22:47:55.231Z",
+      "__v": 0
     }
   ],
   "Status": [
@@ -1048,6 +1119,39 @@
       "admin": false,
       "createdAt": "2024-05-06T08:19:25.962Z",
       "updatedAt": "2024-05-06T08:19:25.962Z",
+      "__v": 0
+    },
+    {
+      "_id": "664277ea4f5e4760b52d7e84",
+      "fio": "test2",
+      "email": "2@ru",
+      "tel": "2",
+      "pass": "$2a$10$2/Eo5yR/LNr40KRRX8rHAu4YmJXiQH5S4QCDw2KKrQbkXUXBh6l7e",
+      "admin": false,
+      "createdAt": "2024-05-13T20:28:26.778Z",
+      "updatedAt": "2024-05-13T20:28:26.778Z",
+      "__v": 0
+    },
+    {
+      "_id": "6642864a37ee60e34c596fda",
+      "fio": "Полькин Дмитрий",
+      "email": "polkindmitry@ya.ru",
+      "tel": "+79537518335",
+      "pass": "$2a$10$OKfoXO9pltOy0K9mjYvbiu/VT6O59GiwMH7WvR8CL3dMoi3qhVM5a",
+      "admin": false,
+      "createdAt": "2024-05-13T21:29:46.655Z",
+      "updatedAt": "2024-05-13T21:29:46.655Z",
+      "__v": 0
+    },
+    {
+      "_id": "664297c6851bf6c4debb215c",
+      "fio": "Тихомиров Михаил Дмитриевич",
+      "email": "tikhomirov.misha@gmail.com",
+      "tel": "+79537534751",
+      "pass": "$2a$10$L03ZyclefXCfN1gzOGX7z.nC3IilQCKcjIXquce/ioaghqx3RSOuy",
+      "admin": false,
+      "createdAt": "2024-05-13T22:44:22.107Z",
+      "updatedAt": "2024-05-13T22:44:22.107Z",
       "__v": 0
     }
   ]

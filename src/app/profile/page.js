@@ -73,6 +73,7 @@ export default function Profile() {
 		if (res.ok) {
 			const a = document.createElement('a')
 			a.href = 'https://dodo-shaderka.vercel.app/db_export.json'
+			//a.href = 'http://localhost:3000/db_export.json'
 			a.download = 'db_export.json'
 			document.body.appendChild(a)
 			a.click()

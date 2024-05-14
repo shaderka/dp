@@ -8,7 +8,7 @@ import { useSession } from 'next-auth/react'
 import { useRouter } from 'next/navigation'
 import { useEffect, useState } from 'react'
 import { Toaster, toast } from 'sonner'
-import Reciept from '@/app/components/reciept'
+//import Tovarni from '@/app/components/tovarni'
 
 export default function OrdersPage() {
 	const session = useSession()
@@ -190,7 +190,13 @@ export default function OrdersPage() {
 										</td>
 										<td className='p-4'>
 											{isAdm ? (
-												<Reciept order={order} />
+												//<TovarniCheck order={order} />
+												<Link
+													href={'/profile/orders/' + order._id}
+													className='text-white bg-primary hover:bg-orange-600 focus:ring-4 focus:outline-none focus:ring-orange-300 font-medium rounded-lg text-sm sm:w-auto px-5 py-2.5 text-center'
+												>
+													Печать
+												</Link>
 											) : getTicketOfOrder(order._id) == '' ? (
 												<button
 													onClick={() => handleCreateTicket(order._id)}

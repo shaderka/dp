@@ -1,16 +1,17 @@
 'use client'
 
 import Docxtemplater from 'docxtemplater'
-import dateFormat, { masks } from 'dateformat'
+import dateFormat, { masks, i18n } from 'dateformat'
 import PizZip from 'pizzip'
-import PizZipUtils from 'pizzip/utils/index.js'
+import PizZipUtils from 'pizzip/utils'
 import { saveAs } from 'file-saver'
-// import template from '../reciept-template.docx'
-import { Toaster, toast } from 'sonner'
 import { useEffect, useState } from 'react'
+import { useSession } from 'next-auth/react'
 
-export default function Reciept(order) {
-	const path = 'https://dodo-shaderka.vercel.app/reciept-template.docx'
+export default function Tovarni(order) {
+	console.log(order)
+	//const path = 'https://dodo-shaderka.vercel.app/reciept-template.docx'
+	const path = 'http://localhost:3000/reciept-template.docx'
 
 	const [items, setItems] = useState([])
 	const [extras, setExtras] = useState([])
@@ -40,7 +41,7 @@ export default function Reciept(order) {
 
 	const getItemsArray = order => {
 		let array = []
-		for (const item of order.order.items) {
+		for (const item of order?.order.items) {
 			array.push({
 				name: nameProduct(item),
 				price: itemPrice(item),
@@ -67,7 +68,7 @@ export default function Reciept(order) {
 	}
 
 	const resume = {
-		id: order.order._id.slice(-4),
+		id: order?.order?._id?.slice(-4),
 		day: dateFormat(new Date(), 'dd'),
 		month: dateFormat(new Date(), 'mm'),
 		year: dateFormat(new Date(), 'yy'),
@@ -106,6 +107,10 @@ export default function Reciept(order) {
 			console.log(error)
 		}
 	}
+
+	console.log('123123123123123123')
+
+	//generateDocument(resume, path)
 
 	return (
 		<button
