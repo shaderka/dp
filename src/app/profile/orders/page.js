@@ -94,7 +94,7 @@ export default function OrdersPage() {
 			<div className='flex-grow'>
 				<Nav></Nav>
 				{orders?.length > 0 && (
-					<div className='relative flex flex-col w-full bg-white shadow-md bg-clip-border rounded-xl'>
+					<div className='relative flex flex-col w-full bg-white shadow-md bg-clip-border rounded-xl overflow-x-scroll'>
 						<table className='w-full text-left table-auto min-w-max'>
 							<thead>
 								<tr>
