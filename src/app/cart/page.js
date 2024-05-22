@@ -7,6 +7,7 @@ import { Toaster, toast } from 'sonner'
 import Header from '@/app/components/layout/header'
 import Footer from '@/app/components/layout/footer'
 import { useSession } from 'next-auth/react'
+import Link from 'next/link'
 
 export default function CartPage() {
 	const session = useSession()
@@ -30,16 +31,18 @@ export default function CartPage() {
 	const handelCheckout = async e => {
 		e.preventDefault()
 
-		fetch('/api/checkout', {
-			method: 'POST',
-			headers: { 'Content-Type': 'application/json' },
-			body: JSON.stringify({ cartProducts, address }),
-		}).then(async res => {
-			if (res.ok) {
-				clearCart()
-				toast.success('Заказ создан')
-			} else toast.error('Ошибка при создании заказа')
-		})
+		if (address.trim() != '') {
+			fetch('/api/checkout', {
+				method: 'POST',
+				headers: { 'Content-Type': 'application/json' },
+				body: JSON.stringify({ cartProducts, address }),
+			}).then(async res => {
+				if (res.ok) {
+					clearCart()
+					toast.success('Заказ создан')
+				} else toast.error('Ошибка при создании заказа')
+			})
+		} else toast.warning('Введите адрес')
 	}
 
 	const nameProduct = product => {
@@ -141,12 +144,21 @@ export default function CartPage() {
 							<h3 className='text-xl font-medium'>
 								Всего: <span>{subtotal}₽</span>
 							</h3>
-							<button
-								type='submit'
-								className='text-white mt-4 bg-primary hover:bg-orange-600 focus:ring-4 focus:outline-none focus:ring-orange-300 font-medium rounded-lg text-sm w-auto px-5 py-2.5 text-center '
-							>
-								Оформить заказ
-							</button>
+							{status != 'unauthenticated' ? (
+								<button
+									type='submit'
+									className='text-white mt-4 bg-primary hover:bg-orange-600 focus:ring-4 focus:outline-none focus:ring-orange-300 font-medium rounded-lg text-sm w-auto px-5 py-2.5 text-center '
+								>
+									Оформить заказ
+								</button>
+							) : (
+								<Link
+									href={'/login'}
+									className='text-white block mt-4 w-fit bg-primary hover:bg-orange-600 focus:ring-4 focus:outline-none focus:ring-orange-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center'
+								>
+									Авторизоваться
+								</Link>
+							)}
 						</form>
 					</div>
 				)}
