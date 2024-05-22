@@ -16,8 +16,8 @@ export default function Header() {
 					DODO <span className=' max-[700px]:hidden'>PIZZA</span>
 				</Link>
 				<nav className='flex gap-4 items-center'>
-					<Link href={'/'}>О нас</Link>
-					<Link href={'/'}>Контакты</Link>
+					<Link href={'/about'}>О нас</Link>
+					<Link href={'/contacts'}>Контакты</Link>
 					{status != 'unauthenticated' ? (
 						<Acc></Acc>
 					) : (
