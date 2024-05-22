@@ -10,7 +10,7 @@ import { useEffect, useState } from 'react'
 import { useSession } from 'next-auth/react'
 
 export default function OrderPage() {
-	const path = 'https://dodo.webtm.ru/reciept-template.docx'
+	const path = 'https://dodopizza.tw1.ru/reciept-template.docx'
 	//const path = 'http://localhost:3000/reciept-template.docx'
 	const { orderId } = useParams()
 

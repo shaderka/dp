@@ -24,7 +24,7 @@ i18n.monthNames = [
 ]
 
 export default function TicketsClosedDocument(user) {
-	const path = 'https://dodo.webtm.ru/ticket-template.docx'
+	const path = 'https://dodopizza.tw1.ru/ticket-template.docx'
 	//const path = 'http://localhost:3000/ticket-template.docx'
 	const session = useSession()
 
