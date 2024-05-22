@@ -24,7 +24,7 @@ i18n.monthNames = [
 ]
 
 export default function OrdersDocument(user) {
-	const path = 'https://dodo-shaderka.vercel.app/orders-template.docx'
+	const path = 'https://dodo.webtm.ru/orders-template.docx'
 	//const path = 'http://localhost:3000/orders-template.docx'
 
 	const session = useSession()
